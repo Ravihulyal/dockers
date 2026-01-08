@@ -1,0 +1,10 @@
+ren Dockerfile.txt Dockerfile
+docker build -t hello-java .
+docker run hello-java
+
+
+
+
+ren Dockerfile.txt Dockerfile
+docker build -t login-web-app .
+docker run -p 4080:4080 login-web-app
